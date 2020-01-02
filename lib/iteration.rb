@@ -21,7 +21,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   output_array = []
   src.each do |subarray|
-    
+    if subarray[0] > subarray[1] 
 end
 
 def total_even_pairs(src)
