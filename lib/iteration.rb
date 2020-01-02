@@ -8,7 +8,12 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   output_array = []
   
-  src.each
+  src.each do |subarray|
+    src.each do |element|
+      output_array << "I love ${}"
+    end
+  end
+  return output_array
   
 end
 
