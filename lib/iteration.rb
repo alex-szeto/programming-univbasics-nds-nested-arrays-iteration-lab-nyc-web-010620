@@ -9,9 +9,7 @@ def join_ingredients(src)
   output_array = []
   
   src.each do |subarray|
-    src.each do |element|
-      output_array << "I love ${}"
-    end
+    output_array << "I love #{subarray[0]} and #{subarray[1]} on my pizza"
   end
   return output_array
   
