@@ -39,6 +39,9 @@ def total_even_pairs(src)
   # this!
   total = 0
   src.each do |subarray|
-    if subarray[0]
+    if subarray[0] % 2 = 0 && subarray[1] % 2 = 0
+      total += subarray[0] + subarray[1]
+    end
+  return total
   
 end
