@@ -22,6 +22,11 @@ def find_greater_pair(src)
   output_array = []
   src.each do |subarray|
     if subarray[0] > subarray[1] 
+      output_array << subarray[0]
+    else
+      output_array << subarray[1]
+  end
+  return output_array
 end
 
 def total_even_pairs(src)
